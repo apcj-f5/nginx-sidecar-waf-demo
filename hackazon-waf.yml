@@ -28,7 +28,7 @@ spec:
     # In reality, this sidecar would be a custom image
     # that uploads logs to a third-party or storage service.
     image: sbacker/nginxmodsec:v5
-    imagePullPolicy: always
+    imagePullPolicy: Always
     ports:
       - containerPort: 81
 
