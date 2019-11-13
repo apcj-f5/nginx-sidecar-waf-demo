@@ -5,7 +5,7 @@ Run the following command to get it running
  
 kubectl apply -f nginx-configmap.yml
 
-Kubectl apply -f hackazon-waf.yml
+kubectl apply -f hackazon-waf.yml
 
 kubectl expose pod hackazon-with-sidecar-waf --type=NodePort --port=80 --target-port=81 
 
