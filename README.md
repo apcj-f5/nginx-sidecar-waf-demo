@@ -11,7 +11,7 @@ kubectl expose pod hackazon-with-sidecar-waf --type=NodePort --port=80 --target-
 
 Simple test for modsec in operation 
 
-curl -H "User-Agent: Nikto" http://10.108.94.59
+curl -H "User-Agent: Nikto" http://<app-ip-address>
  
-curl http://10.108.94.59?testparam=modsectest 
+curl http://<app-ip-address>?testparam=modsectest 
  
